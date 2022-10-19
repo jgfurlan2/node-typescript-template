@@ -1,0 +1,10 @@
+{
+  "restartable": "rs",
+  "ignore": ["**/node_modules"],
+  "verbose": false,
+  "execMap": {
+    "js": "ts-node"
+  },
+  "watch": ["src", "package.json", ".env"],
+  "ext": "js ts json"
+}
